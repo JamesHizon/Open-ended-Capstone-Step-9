@@ -9,3 +9,7 @@ Given the AWS Educate account, I was unable to work directly with AWS Redshift a
 ### Athena and Glue
 I was advised to work with Athena and Glue by previous mentor to learn about automatic schema and table creation. Because of the two file folders that I created to store transformed data, I was able to automatically figure out the schema and write a simple query on that table. The two tables contained all data from files. It helped me to figure out and see that it may be crucial to not drop the "DATE" column so I can query by date for further analysis later on. As a result of the automatic schema creation, it also enabled me to see that I do not need to use Spark to alter the data types.
 
+### Files
+1. Jupyter Notebook file used to extract, load and process data.
+2. Screenshot of S3 bucket (prior to processing data).
+3. Screenshot of using Glue and Athena to automatically create schema and tables of two separate file folders.
