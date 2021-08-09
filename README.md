@@ -13,3 +13,4 @@ I was advised to work with Athena and Glue by previous mentor to learn about aut
 1. Jupyter Notebook file used to extract, load and process data.
 2. Screenshot of S3 bucket (prior to processing data).
 3. Screenshot of using Glue and Athena to automatically create schema and tables of two separate file folders.
+4. Screenshot of adjusting Cluster configuration settings such that I use 6 Core processing nodes vs. 2 in order to fully process the remaining dataset. I used 2 for the first few times I had to process my dataset. To fully process nearly 100 GBs of data, I need to use a total of ~20 Core processing nodes.
